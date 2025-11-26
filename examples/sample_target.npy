@@ -1,0 +1,6 @@
+# run once to create examples/sample_target.npy
+import numpy as np
+t = np.linspace(0, 2*np.pi, 400)
+target = np.stack([np.sin(t), np.cos(t)], axis=1)  # shape (400, 2)
+np.save("examples/sample_target.npy", target)
+print("Saved examples/sample_target.npy")

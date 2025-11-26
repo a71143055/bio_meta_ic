@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.out/
+out/
+build/
+dist/
+*.so
+*.dll
+*.dylib
+*.o
+*.a
+*.log
+*.npy

@@ -1,0 +1,8 @@
+task_name: "waveform_following"
+waveform: "sine"  # sine, square, saw
+freq: 2.0
+amplitude: 1.0
+input_dim: 2
+output_dim: 1
+horizon: 300
+loss: "mse"

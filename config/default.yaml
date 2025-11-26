@@ -1,0 +1,21 @@
+seed: 42
+out_dir: out
+device: cpu
+
+circuit:
+  num_nodes: 128
+  topology: "hex"     # options: grid, ring, hex, random
+  init_weight_scale: 0.05
+  leak: 0.01
+  dt: 0.01
+
+meta:
+  inner_steps: 5
+  inner_lr: 0.02
+  outer_lr: 0.001
+  batch_tasks: 4
+  episodes: 50
+
+visualize:
+  export_graphml: true
+  layout: "spring"    # options: spring, kamada_kawai, circular

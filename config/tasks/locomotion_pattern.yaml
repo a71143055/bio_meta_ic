@@ -1,0 +1,6 @@
+task_name: "locomotion_pattern"
+pattern: "gait-cpg"  # central pattern generator target
+input_dim: 6
+output_dim: 4
+horizon: 400
+loss: "mse"

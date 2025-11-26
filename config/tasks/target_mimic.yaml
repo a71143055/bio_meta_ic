@@ -1,0 +1,7 @@
+task_name: "target_mimic"
+target_path: "examples/sample_target.npy"
+input_dim: 4
+output_dim: 2
+horizon: 200
+noise_std: 0.01
+loss: "mse"
